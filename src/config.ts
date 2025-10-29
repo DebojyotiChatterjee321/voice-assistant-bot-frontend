@@ -13,5 +13,5 @@ export const DEFAULT_TRANSPORT: TransportType = 'smallwebrtc';
 
 export const TRANSPORT_CONFIG: Record<TransportType, any> = {
   daily: { endpoint: '/api/start' },
-  smallwebrtc: { webrtcRequestParams: { endpoint: 'http://localhost:7860/api/offer' }  },
+  smallwebrtc: { webrtcRequestParams: { endpoint: 'https://voice-assistant-bot-backend.onrender.com/api/offer' }  },
 };
