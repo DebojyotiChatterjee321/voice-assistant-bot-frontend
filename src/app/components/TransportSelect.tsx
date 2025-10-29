@@ -7,7 +7,7 @@ import {
   SelectGuide,
 } from '@pipecat-ai/voice-ui-kit';
 
-import type { TransportType } from '../config';
+import type { TransportType } from '../../config';
 
 interface TransportSelectProps {
   transportType: TransportType;
