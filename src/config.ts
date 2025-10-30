@@ -13,5 +13,7 @@ export const DEFAULT_TRANSPORT: TransportType = 'smallwebrtc';
 
 export const TRANSPORT_CONFIG: Record<TransportType, any> = {
   daily: { endpoint: '/api/start' },
-  smallwebrtc: { webrtcRequestParams: { endpoint: 'https://voice-assistant-bot-backend.onrender.com/api/offer' }  },
+  // smallwebrtc: { webrtcRequestParams: { endpoint: 'https://voice-assistant-bot-backend.onrender.com/api/offer' }  },
+  smallwebrtc: { webrtcRequestParams: { endpoint: ' https://b7f9fd6d44c6.ngrok-free.app/api/offer' }  },
+
 };
